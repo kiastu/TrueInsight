@@ -29,7 +29,7 @@ public class MuseServer {
 				public void acceptMessage(java.util.Date time, OSCMessage message) {
 					//we need to do something here to handle the inputs.
 					System.out.println("Message received! Raw OSCMessage"+message.toString());
-					//Gonna be lazy, just keep them in a list, process them in another class.
+					// just keep them in a list, process them in another class.
 					messageList.add(message);
 				}
 			};
