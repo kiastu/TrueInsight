@@ -7,17 +7,26 @@
 package market;
 
 import java.awt.Desktop;
+import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
 
 /**
  *
  * @author FeepFoop
  */
-public class Market2 extends javax.swing.JFrame {
+public class Market2 extends javax.swing.JFrame implements KeyListener{
 
     /**
      * Creates new form Market2
@@ -296,8 +305,12 @@ public class Market2 extends javax.swing.JFrame {
     {
         jLayeredPane5.setVisible(true);
         jLabel9.setText(null);
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource(f.toString())));
-        GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().setFullScreenWindow(this);
+        //jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource(f.toString())));
+        String imagePath = f.toString();
+        ImageIcon ii = new ImageIcon(imagePath);
+        jLabel9.setIcon(ii);
+        gd.setFullScreenWindow(this);
+        this.setUndecorated(true);
     }
     
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -384,4 +397,22 @@ public class Market2 extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        if(e.getKeyCode() == KeyEvent.VK_ESCAPE)
+        {
+            this.setUndecorated(true);
+        }
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+    }
+    
+    GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
 }
