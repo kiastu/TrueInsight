@@ -93,6 +93,33 @@ public class TETSimple
     public void stopServer(){
         gm.deactivate();
     }
+    
+    public TETSimple(int x)
+    {
+        TETSimple TS = new TETSimple();
+        try{
+            Thread.sleep(10000);
+        }catch(Exception e){}
+        //stop running.
+        TS.stopServer();
+
+        HeatChart map = new HeatChart(TS.getArrayCoordinates());
+        double [][]arrayCoordinates = TS.getArrayCoordinates();
+        PrintWriter writer = new PrintWriter("logs.txt");
+        for(int i = 0; i < E_WIDTH; i++) {
+            String print = "";
+            for(int j = 0; j < E_HEIGHT; j++){
+                print += arrayCoordinates[i][j]+" ";
+            }
+            writer.println(print);
+        }
+
+        try {
+            map.saveToFile(new java.io.File("java-heat-chart.png"));
+            }catch(Exception e) {
+        e.printStackTrace();        }
+    }
+    
     public static void main(String[] args) throws Exception
     {
 

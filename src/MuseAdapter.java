@@ -1,6 +1,6 @@
 
 public class MuseAdapter {
-	public static void main(){
+	public static void main(String[] args){
 		//this is for testing purposes. Shows how to call the server.
 		MuseServer server = new MuseServer();
 		server.run();//starts the server, so it will communicate with the muse.
