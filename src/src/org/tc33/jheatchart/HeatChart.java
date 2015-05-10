@@ -154,8 +154,8 @@ public class HeatChart {
 	private Dimension cellSize;
 	private Dimension chartSize;
 	private int margin;
-	private Color backgroundColour;
-	
+	private Color backgroundColour = new Color(0, 0, 0, 20);
+
 	// Title settings.
 	private String title;
 	private Font titleFont;
@@ -248,8 +248,6 @@ public class HeatChart {
 		// Default chart settings.
 		this.cellSize = new Dimension(20, 20);
 		this.margin = 20;
-		this.backgroundColour = Color.WHITE;
-		
 		// Default title settings.
 		this.title = null;
 		this.titleFont = new Font("Sans-Serif", Font.BOLD, 16);
@@ -259,10 +257,10 @@ public class HeatChart {
 		this.xAxisLabel = null;
 		this.yAxisLabel = null;
 		this.axisThickness = 2;
-		this.axisColour = Color.BLACK;
+		this.axisColour = Color.cyan;
 		this.axisLabelsFont = new Font("Sans-Serif", Font.PLAIN, 12);
-		this.axisLabelColour = Color.BLACK;
-		this.axisValuesColour = Color.BLACK;
+		this.axisLabelColour = Color.cyan;
+		this.axisValuesColour = Color.cyan;
 		this.axisValuesFont = new Font("Sans-Serif", Font.PLAIN, 10);
 		this.xAxisValuesFrequency = 1;
 		this.xAxisValuesHeight = 0;
@@ -274,7 +272,8 @@ public class HeatChart {
 		this.yValuesHorizontal = true;
 		
 		// Default heatmap settings.
-		this.highValueColour = Color.BLACK;
+
+		this.highValueColour = Color.BLUE;
 		this.lowValueColour = Color.WHITE;
 		this.colourScale = SCALE_LINEAR;
 		
@@ -778,10 +777,10 @@ public class HeatChart {
 	 */
 	public void setBackgroundColour(Color backgroundColour) {
 		if (backgroundColour == null) {
-			backgroundColour = Color.WHITE;
+			backgroundColour = new Color (0, 0, 0, 100);
 		}
-		
-		this.backgroundColour = backgroundColour;
+
+		this.backgroundColour =new Color (0, 0, 0, 50);
 	}
 
 	/**
@@ -1153,9 +1152,9 @@ public class HeatChart {
 	 * @param lowValueColour the colour to use for cells of the lowest 
 	 * z-value.
 	 */
-	public void setLowValueColour(Color lowValueColour) {
-		this.lowValueColour = lowValueColour;
-		
+	public void setLowValueColour(Color lowValueColour) { //changed
+		this.lowValueColour = new Color (0, 0, 0, 50);
+
 		updateColourDistance();
 	}
 	
@@ -1184,7 +1183,11 @@ public class HeatChart {
 	 * for the separation between higher values and a value between 0.0 and 1.0
 	 * will provide a <strong>logarithmic</strong> scale, with greater 
 	 * separation of low values. Values of 0.0 or less are illegal.
+<<<<<<< HEAD
 	 * 
+=======
+	 *
+>>>>>>> ffe361308005b355e8a53a7bc58c5a3de098c1a6
 	 * <p>
 	 * Defaults to a linear scale value of 1.0.
 	 * 
