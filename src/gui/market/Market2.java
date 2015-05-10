@@ -36,6 +36,7 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
         jLayeredPane2.setVisible(false);
         jLayeredPane3.setVisible(false);
         jLayeredPane5.setVisible(false);
+        jLayeredPane4.setVisible(false);
     }
 
     /**
@@ -64,6 +65,8 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
         jLayeredPane1 = new javax.swing.JLayeredPane();
         jButton2 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
+        jLayeredPane4 = new javax.swing.JLayeredPane();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -87,11 +90,14 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
 
         jLabel3.setText("Recording Time:");
 
+<<<<<<< HEAD:src/gui/market/Market2.java
         String imagePath = ("/market/Logo_In_Progress-Recovered_90_110x110.png");
         ImageIcon iii = new ImageIcon(imagePath);
         jLabel5.setIcon(iii);
         //jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/market/Logo_In_Progress-Recovered_90_110x110.png"))); // NOI18N
 
+=======
+>>>>>>> origin/master:gui/market/Market2.java
         javax.swing.GroupLayout jLayeredPane2Layout = new javax.swing.GroupLayout(jLayeredPane2);
         jLayeredPane2.setLayout(jLayeredPane2Layout);
         jLayeredPane2Layout.setHorizontalGroup(
@@ -118,7 +124,7 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
                                         .addComponent(jLabel3)
                                         .addGap(18, 18, 18)
                                         .addComponent(jTextField2)))))))
-                .addContainerGap(62, Short.MAX_VALUE))
+                .addContainerGap(172, Short.MAX_VALUE))
         );
         jLayeredPane2Layout.setVerticalGroup(
             jLayeredPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -134,7 +140,7 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(27, 27, 27)
                 .addComponent(jButton3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
                 .addGroup(jLayeredPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -218,11 +224,14 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
             }
         });
 
+<<<<<<< HEAD:src/gui/market/Market2.java
         String imagePath1 = ("/Logo_In_Progress-Recovered_90_2_15.png");
         ImageIcon iiii = new ImageIcon(imagePath1);
         jLabel7.setIcon(iiii);
         //jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Logo_In_Progress-Recovered_90_2_15.png"))); // NOI18N
 
+=======
+>>>>>>> origin/master:gui/market/Market2.java
         javax.swing.GroupLayout jLayeredPane1Layout = new javax.swing.GroupLayout(jLayeredPane1);
         jLayeredPane1.setLayout(jLayeredPane1Layout);
         jLayeredPane1Layout.setHorizontalGroup(
@@ -233,21 +242,50 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
                         .addGap(187, 187, 187)
                         .addComponent(jLabel7))
                     .addGroup(jLayeredPane1Layout.createSequentialGroup()
-                        .addGap(271, 271, 271)
+                        .addGap(270, 270, 270)
                         .addComponent(jButton2)))
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addContainerGap(290, Short.MAX_VALUE))
         );
         jLayeredPane1Layout.setVerticalGroup(
             jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jLayeredPane1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel7)
-                .addGap(18, 18, 18)
+                .addGap(132, 132, 132)
                 .addComponent(jButton2)
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(209, Short.MAX_VALUE))
         );
         jLayeredPane1.setLayer(jButton2, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane1.setLayer(jLabel7, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
+        jButton4.setText("Stop");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jLayeredPane4Layout = new javax.swing.GroupLayout(jLayeredPane4);
+        jLayeredPane4.setLayout(jLayeredPane4Layout);
+        jLayeredPane4Layout.setHorizontalGroup(
+            jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 623, Short.MAX_VALUE)
+            .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jLayeredPane4Layout.createSequentialGroup()
+                    .addGap(263, 263, 263)
+                    .addComponent(jButton4)
+                    .addContainerGap(285, Short.MAX_VALUE)))
+        );
+        jLayeredPane4Layout.setVerticalGroup(
+            jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 364, Short.MAX_VALUE)
+            .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jLayeredPane4Layout.createSequentialGroup()
+                    .addGap(167, 167, 167)
+                    .addComponent(jButton4)
+                    .addContainerGap(168, Short.MAX_VALUE)))
+        );
+        jLayeredPane4.setLayer(jButton4, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -269,6 +307,11 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
                     .addContainerGap()
                     .addComponent(jLayeredPane5)
                     .addContainerGap()))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jLayeredPane4)
+                    .addContainerGap()))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -287,6 +330,11 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
                     .addComponent(jLayeredPane5)
+                    .addContainerGap()))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jLayeredPane4)
                     .addContainerGap()))
         );
 
@@ -335,7 +383,7 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        jLayeredPane2.setVisible(true);
+        jLayeredPane4.setVisible(true);
         jLayeredPane1.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -348,6 +396,13 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
         jLayeredPane1.setVisible(true);
         jLayeredPane3.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        jLayeredPane2.setVisible(false);
+        jLayeredPane1.setVisible(false);
+        jLayeredPane4.setVisible(false);
+        jLayeredPane3.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -388,6 +443,7 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -399,6 +455,7 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
     private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JLayeredPane jLayeredPane2;
     private javax.swing.JLayeredPane jLayeredPane3;
+    private javax.swing.JLayeredPane jLayeredPane4;
     private javax.swing.JLayeredPane jLayeredPane5;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
@@ -414,10 +471,19 @@ public class Market2 extends javax.swing.JFrame implements KeyListener{
 
     @Override
     public void keyPressed(KeyEvent e) {
+        if(e.getKeyCode() == KeyEvent.VK_ESCAPE)
+        {
+            this.setUndecorated(true);
+        }
     }
 
     @Override
     public void keyReleased(KeyEvent e) {
+        if(e.getKeyCode() == KeyEvent.VK_ESCAPE)
+        {
+            this.setUndecorated(true);
+            System.out.println("HAHA");
+        }
     }
     
     GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
