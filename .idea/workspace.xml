@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f280fd2b-486a-473e-bb0c-b9adbe30fcb1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/combined.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Market2.form" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/CalibrationPointEndReply$Values.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/CalibrationPointEndReply$Values.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/CalibrationPointEndReply.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/CalibrationPointEndReply.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$Accuracy.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$Accuracy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$CalibrationPoint.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$CalibrationPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$MeanError.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$MeanError.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$StandardDeviation.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult$StandardDeviation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/CalibrationResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$1.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$IGazeApiConnectionListener.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$IGazeApiConnectionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$IGazeApiResponseListener.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$IGazeApiResponseListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$IncomingStreamHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$IncomingStreamHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$OutgoingStreamHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager$OutgoingStreamHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeApiManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/GazeData$Eye.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/GazeData$Eye.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/GazeData.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/data/GazeData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$1.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$2.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$3.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$ApiVersion.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$ApiVersion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$ClientMode.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$ClientMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$FrameRate.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$FrameRate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$GazeBroadcaster$BroadcastTask.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$GazeBroadcaster$BroadcastTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$GazeBroadcaster.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$GazeBroadcaster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$Heartbeat$HeartTask.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$Heartbeat$HeartTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$Heartbeat.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$Heartbeat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$Holder.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$Holder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$SingleFrameBlockingQueue.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$SingleFrameBlockingQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$TrackerState.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager$TrackerState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/GazeManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/org/tc33/jheatchart/HeatChart.class" afterPath="$PROJECT_DIR$/target/classes/src/org/tc33/jheatchart/HeatChart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/gui/market/Market.class" afterPath="$PROJECT_DIR$/target/classes/gui/market/Market.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2$1.class" afterPath="$PROJECT_DIR$/target/classes/Market2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/gui/market/Market2$1.class" afterPath="$PROJECT_DIR$/target/classes/gui/market/Market2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2$2.class" afterPath="$PROJECT_DIR$/target/classes/Market2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/gui/market/Market2$2.class" afterPath="$PROJECT_DIR$/target/classes/gui/market/Market2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2$3.class" afterPath="$PROJECT_DIR$/target/classes/Market2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2$4.class" afterPath="$PROJECT_DIR$/target/classes/Market2$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2$5.class" afterPath="$PROJECT_DIR$/target/classes/Market2$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2$6.class" afterPath="$PROJECT_DIR$/target/classes/Market2$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2.class" afterPath="$PROJECT_DIR$/target/classes/Market2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/gui/market/Market2.class" afterPath="$PROJECT_DIR$/target/classes/gui/market/Market2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Market2_1.class" afterPath="$PROJECT_DIR$/target/classes/Market2_1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MuseAdapter.class" afterPath="$PROJECT_DIR$/target/classes/MuseAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/ReplyFailed$Values.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/ReplyFailed$Values.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/ReplyFailed.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/ReplyFailed.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TETSimple$1.class" afterPath="$PROJECT_DIR$/target/classes/TETSimple$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TETSimple$GazeListener.class" afterPath="$PROJECT_DIR$/target/classes/TETSimple$GazeListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TETSimple.class" afterPath="$PROJECT_DIR$/target/classes/TETSimple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/TrackerGetReply$Values.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/TrackerGetReply$Values.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/TrackerGetReply.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/reply/TrackerGetReply.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/request/TrackerSetRequest$Values.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/request/TrackerSetRequest$Values.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/request/TrackerSetRequest.class" afterPath="$PROJECT_DIR$/target/classes/com/theeyetribe/client/request/TrackerSetRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java-heat-chart.png" afterPath="$PROJECT_DIR$/java-heat-chart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/org/tc33/jheatchart/HeatChart.java" afterPath="$PROJECT_DIR$/src/src/org/tc33/jheatchart/HeatChart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/market/Market2.form" afterPath="$PROJECT_DIR$/src/gui/market/Market2.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Market2.java" afterPath="$PROJECT_DIR$/src/Market2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/market/Market2.java" afterPath="$PROJECT_DIR$/src/gui/market/Market2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MuseServer.java" afterPath="$PROJECT_DIR$/src/MuseServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TETSimple.java" afterPath="$PROJECT_DIR$/src/TETSimple.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs.txt" afterPath="$PROJECT_DIR$/logs.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TrueInsight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,30 +29,37 @@
       <file leaf-file-name="MuseServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MuseServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.8">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding>
-                <element signature="e#629#966#0" expanded="true" />
                 <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TETSimple.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TETSimple.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TETSimple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.040871933">
+              <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="method#TETSimple#0;class#TETSimple#0" expanded="false" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,15 +70,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1431285547000" expanded="true" signature="29039:29057" placeholder="..." />
+                <marker date="1431285547000" expanded="true" signature="29039:29070" placeholder="..." />
+                <marker date="1431285547000" expanded="true" signature="29039:29085" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeatChart.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeatChart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/org/tc33/jheatchart/HeatChart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3896458">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1153" column="7" selection-start-line="1153" selection-start-column="7" selection-end-line="1153" selection-end-column="7" />
               <folding>
                 <element signature="e#35866#35867#0" expanded="true" />
@@ -144,6 +92,16 @@
                 <element signature="e#42576#42577#0" expanded="true" />
                 <element signature="e#42610#42611#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MuseAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MuseAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,10 +119,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MuseServer.java" />
-        <option value="$PROJECT_DIR$/src/TETSimple.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/src/org/tc33/jheatchart/HeatChart.java" />
+        <option value="$PROJECT_DIR$/src/MuseServer.java" />
+        <option value="$PROJECT_DIR$/src/TETSimple.java" />
       </list>
     </option>
   </component>
@@ -465,12 +423,12 @@
       <created>1431278313164</created>
       <option name="number" value="Default" />
       <updated>1431278313164</updated>
-      <workItem from="1431278329862" duration="1206000" />
+      <workItem from="1431278329862" duration="3191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1206000" />
+    <option name="totallyTimeSpent" value="3191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -514,45 +472,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MuseServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.8">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#629#966#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TETSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="method#TETSimple#0;class#TETSimple#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1431285547000" expanded="true" signature="29039:29057" placeholder="..." />
+            <marker date="1431285547000" expanded="true" signature="29039:29070" placeholder="..." />
+            <marker date="1431285547000" expanded="true" signature="29039:29085" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MuseServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/org/tc33/jheatchart/HeatChart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3896458">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1153" column="7" selection-start-line="1153" selection-start-column="7" selection-end-line="1153" selection-end-column="7" />
           <folding>
             <element signature="e#35866#35867#0" expanded="true" />
@@ -561,6 +512,30 @@
             <element signature="e#36788#36789#0" expanded="true" />
             <element signature="e#42576#42577#0" expanded="true" />
             <element signature="e#42610#42611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MuseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TETSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040871933">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
           </folding>
         </state>
       </provider>

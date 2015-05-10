@@ -45,4 +45,18 @@ public class MuseServer {
 	public ArrayList<OSCMessage> getData(){
 		return messageList;
 	}
+	public double[][] getTestMuseData(){
+
+		double[][] data = new double[1080/5][1920/5];
+		int xCentre = 1920/5/4;
+		int yCentre = 1080/5/2;
+		for(int i = 0;i<data.length;i++){
+			for(int j=0;j<data[i].length;j++){
+				if(Math.abs(yCentre-i)<10){
+
+				}
+			}
+		}
+		return data;
+	}
 }

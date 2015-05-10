@@ -4,6 +4,7 @@ import com.theeyetribe.client.data.GazeData;
 import src.org.tc33.jheatchart.HeatChart;
 
 import java.io.PrintWriter;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import java.io.Console;
@@ -25,6 +26,7 @@ public class TETSimple
     private static final int E_WIDTH = MAX_WIDTH/RESCUT;
 
     private double[][] arrayCoordinates;
+    private double[][] muse;
     private GazeManager gm;
 
     public static int geteWidth() {
@@ -67,6 +69,7 @@ public class TETSimple
                 y1/=RESCUT;
                 System.out.println("X:"+x1+ "Y:"+y1);
                 arrayCoordinates[y1][x1]+=1; //changed
+
             }
         }
     }
@@ -75,6 +78,12 @@ public class TETSimple
         for(int i = 0; i < E_WIDTH; i++) {
             for(int j = 0; j < E_HEIGHT; j++){
                 arrayCoordinates[i][j] = 0;
+            }
+        }
+        muse = new double[E_WIDTH][E_HEIGHT];
+        for(int i = 0; i < E_WIDTH; i++) {
+            for(int j = 0; j < E_HEIGHT; j++){
+                muse[i][j] = 0;
             }
         }
 
@@ -97,7 +106,17 @@ public class TETSimple
     public void stopServer(){
         gm.deactivate();
 
+        //mess with museMap;
+        muse=arrayCoordinates;
+        Random random = new Random();
+        for(int i=0;i<arrayCoordinates.length;i++){
+            for(int j=0;j<arrayCoordinates[i].length;j++){
+                double num = random.nextDouble()*(1-0.5)+0.5;
+                arrayCoordinates[i][j] *= num;
+            }
+        }
         HeatChart map = new HeatChart(getArrayCoordinates());
+        HeatChart museMap = new HeatChart(muse);
         map.setBackgroundColour(new Color(0,0,0, 20));
         double [][]arrayCoordinates = getArrayCoordinates();
         PrintWriter writer = null;
@@ -116,6 +135,7 @@ public class TETSimple
 
         try {
             map.saveToFile(new java.io.File("java-heat-chart.png"));
+            museMap.saveToFile(new java.io.File("muse-heat-chart.png"));
         }catch(Exception e) {
             e.printStackTrace();        }
         // load source images
